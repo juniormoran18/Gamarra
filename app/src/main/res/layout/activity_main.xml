@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.junior.gamarra_app.activity.MainActivity"
+    android:background="@drawable/bgdesenfocado">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        app:srcCompat="@drawable/photo" />
+
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/userTxt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColor="@color/lightorange"
+        android:textColorHighlight="@color/lightorange"
+        android:shadowColor="@color/lightorange"
+        android:textColorHint="@color/lightorange"
+        android:textColorLink="@color/lightorange"
+        android:layout_alignStart="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/userTxt"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/lightorange"
+        android:textColorHint="@color/lightorange"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:text="Iniciar Sesion"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/lightorange"
+        android:background="@color/colorAccent"
+        android:onClick="login"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_registrar"
+            android:checked="true"
+            android:icon="@drawable/ic_action_add"
+            android:title="Registrar Tienda nueva" />
+
+        <item
+            android:id="@+id/nav_calificaciones"
+            android:icon="@drawable/ic_star"
+            android:title="Ver mis Calificaciones" />
+
+
+
+
+    </group>
+
+    <group
+        android:id="@+id/group_nav_system"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Configuracion" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Cerrar Sesion" />
+
+    </group>
+
+</menu>
